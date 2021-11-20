@@ -61,7 +61,7 @@ sleep 1
 
 mkdir server; cd server
 echo -e "${greenColour}"'Downloading the minecraft launcher... '"${endColour}"
-wget https://launcher.mojang.com/v1/objects/a16d67e5807f57fc4e550299cf20226194497dc2/server.jar >/dev/null 2>&1
+wget https://launcher.mojang.com/v1/objects/ae583fd57a8c07f2d6fbadce1ce1e1379bf4b32d/server.jar >/dev/null 2>&1
 
 echo -e "${greenColour}"'Initializing the server... '"${endColour}"
 java -Xmx6000M -Xms4000M -jar server.jar nogui >/dev/null 2>&1
